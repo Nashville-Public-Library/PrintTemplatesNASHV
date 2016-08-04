@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Created with Jaspersoft Studio version 6.0.4.final using JasperReports Library version 6.0.4  -->
-<!-- 2015-05-19T11:16:41 -->
+<!-- Created with Jaspersoft Studio version 6.1.0.final using JasperReports Library version 6.1.0  -->
+<!-- 2016-08-04T14:20:01 -->
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="_ls101Gyld.29.feb.2008" pageWidth="67" pageHeight="108" columnWidth="67" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="f9577c40-1cac-4ce7-8e67-3106b8b17dec">
 	<property name="ireport.scriptlethandling" value="0"/>
 	<property name="ireport.encoding" value="UTF-8"/>
@@ -189,14 +189,14 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement rotation="UpsideDown">
-					<font fontName="Arial" size="11" isBold="true"/>
+					<font fontName="Tahoma" size="11" isBold="true"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{itemp} + ($F{itemp}.equals("") ? "" : "\n") + ($F{callNumericAfterDec}.length() > 6 ? $F{callEntireCR}.replaceFirst("(?s)\\.","\n.") : $F{callEntireCR}.replaceFirst("(^B|[0-9]+) ([A-Z])","$1\n$2")) + ($F{itemv}.equals("") ? "" : "\n") + $F{itemv}]]></textFieldExpression>
 			</textField>
 			<textField pattern="MM/dd/yy">
 				<reportElement x="0" y="4" width="65" height="16" uuid="c03ffb8b-32c5-4843-b978-db0d7c36cbf5"/>
 				<textElement rotation="UpsideDown">
-					<font fontName="Arial" size="11" isBold="true"/>
+					<font fontName="Tahoma" size="11" isBold="true"/>
 				</textElement>
 				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
 			</textField>
